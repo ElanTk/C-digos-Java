@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         Random rand = new Random();
-        int num = rand.nextInt(10);;
+        int num = rand.nextInt(10) + 1;
         int guess = 0;
         System.out.println("Ola! Bora tentar adivinhar um numero.");
 
