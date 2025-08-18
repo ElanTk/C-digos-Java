@@ -7,11 +7,12 @@ public class Kart {
     public Kart(){
         motor = new Motor();
     }
-    void pular(){
+
+    void pular() {
         System.out.println("SWHOOP! O kart " + nome + " da um pulo grande!");
     }
 
-    void soltarTurbo(){
+    void soltarTurbo() {
         System.out.println("O Kart " + nome + " solta um turbo, chegando em sua velocidade máxima de " + motor.velocidadeMaxima + ".");
     }
 
